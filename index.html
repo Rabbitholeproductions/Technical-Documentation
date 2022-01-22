@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/navigation.css">
+  <title>Documentation Page</title>
+</head>
+
+
+<body>
+<nav id="navbar"> <img src="kali-linux-logo-hd.jpg" >
+  <header alt="kali linux technical document"></header>
+  <a href="#Home">Home</a>
+    <a href="#What_is_Kali_linux?" class="nav-link">What is Kali Linux?</a>
+    <a href="#Why_should_I_use_Kali_Linux?" class="nav-link">Why should I use Kali Linux?</a>
+     <a href="#Downloading_Kali_Linux" class="nav-link">Downloading Kali Linux</a>
+    <a href="#Installing_Kali_Linux" class="nav-link">Installing Kali Linux</a>
+    <a href="#Installing_Kali_on_Mac_Hardware" class="nav-link">Installing Kali on Mac Hardware</a>
+</nav>
+
+
+<main id="main-doc">
+  <h1>Kali Linux Documentation Page</h1>
+  <section class="main-section" id="What_is_Kali_linux?">
+        <header id="header1">What is Kali Linux?</header>
+          <li> <a href="https://www.kali.org">https://www.kali.org</a></li>
+        <code></code>
+        <p>Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various information
+          security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Kali Linux is a multi platform solution, accessible and freely available to information security professionals and hobbyists.
+
+          Kali Linux was released on the 13th March 2013 as a complete, top-to-bottom rebuild of BackTrack Linux, adhering completely to Debian development standards.</p><br>
+      </section>
+
+      <section class="main-section"  id="Why_should_I_use_Kali_Linux?">
+
+        <header id="header1">Why should I use Kali Linux?</header>
+          <li><a href="https://itsfoss.com">https://itsfoss.com</a></li>
+        <code></code>
+
+        <p>
+        As the distribution’s developers, you might expect us to recommend that everyone should be using Kali Linux. The fact of the matter is, however, that Kali is a Linux distribution specifically geared towards professional penetration testers
+          and
+          security specialists, and given its unique nature, it is NOT a recommended distribution if you’re unfamiliar with Linux or are looking for a general-purpose Linux desktop distribution for development, web design, gaming, etc.</p>
+
+
+
+          <p>Even for experienced Linux users, Kali can pose some challenges. Although Kali is an open source project, it’s not a wide-open source project, for reasons of security. The development team is small and trusted, packages in the repositories
+            are
+            signed both by the individual committer and the team, and - importantly - the set of upstream repositories from which updates and new packages are drawn is very small. Adding repositories to your software sources which have not been tested
+            by
+            the
+            Kali Linux development team is a good way to cause problems on your system.</p>
+
+
+
+          <p< While Kali Linux is architected to be highly customizable, do not expect to be able to add random unrelated packages and repositories that are “out of band” of the regular Kali software sources and have it Just Work. In particular, there
+            is absolutely no support whatsoever for the apt-add-repository command, LaunchPad, or PPAs. Trying to install Steam on your Kali Linux desktop is an experiment that will not end well. Even getting a package as mainstream as NodeJS onto a
+            Kali Linux installation can take a little extra effort and tinkering.</p>
+
+
+
+          <p> If you are unfamiliar with Linux generally, if you do not have at least a basic level of competence in administering a system, if you are looking for a Linux distribution to use as a learning tool to get to know your way around Linux, or
+            if
+            you
+            want a distro that you can use as a general purpose desktop installation, Kali Linux is probably not what you are looking for.</p>
+
+
+
+          <p> In addition, misuse of security and penetration testing tools within a network, particularly without specific authorization, may cause irreparable damage and result in significant consequences, personal and/or legal. “Not understanding
+            what
+            you
+            were doing” is not going to work as an excuse.
+            However, if you’re a professional penetration tester or are studying penetration testing with a goal of becoming a certified professional, there’s no better toolkit  at any price - than Kali Linux.
+          </p>
+
+      </section>
+
+      <section class="main-section" id="Downloading_Kali_Linux">
+
+        <header id="header1">Downloading Kali Linux</header>
+          <li><a href="https://computingforgeeks.com">https://computingforgeeks.com</a></li>
+        <code></code>
+
+
+          <p> ISO Files for Intel-based PCs:
+
+
+            <p>In order to run Kali “Live” from a USB drive on standard Windows and Apple PCs, you’ll need a Kali Linux bootable ISO image, in either 32-bit or 64-bit format.
+
+          </p>
+
+          If you’re not sure of the architecture of the system you want to run Kali on, on Linux or macOS, you can run the command uname -m at the command line. If you get the response, “x86_64”, use the 64-bit ISO image (the one containing “amd64” in
+          the file name); if you get “i386”, use the 32-bit image (the one containing “i386” in the file name). If you’re on a Windows system, the procedure for determining whether your architecture is detailed on Microsoft’s website.
+
+          The Kali Linux images are available both as directly downloadable “.iso/.img” files or via “.torrent” files.
+
+          Official Kali ISOs for Intel-based PCs
+
+          Building your own Kali Linux ISO, standard or customized, is a very simple process.
+        </P>
+
+      </section><br>
+
+      <section class="main-section" id="Installing_Kali_Linux">
+
+        <header id="header1">Installing Kali Linux</header>
+          <li><a href="https://www.tutorialspoint.com">https://www.tutorialspoint.com</a></li>
+        <code></code>
+
+
+          <p>
+
+            <p> Installing Kali Linux (single boot) on your computer is an easy process. This guide will cover the basic install (which can be done on bare metal or guest VM), with the option of encrypting the partition. At times, you may have
+              sensitive
+              data you would prefer to encrypt using Full Disk Encryption (FDE). During the setup process you can initiate an LVM encrypted install on either Hard Disk or USB drives.
+
+          </p>
+
+
+            <p> First, you’ll need compatible computer hardware. Kali Linux is supported on amd64 (x86_64/64-bit) and i386 (x86/32-bit) platforms. Where possible, we would recommend using the amd64 images. The hardware requirements are minimal as
+              listed
+              in the section below, although better hardware will naturally provide better performance. You should be able to use Kali Linux on newer hardware with UEFI and older systems with BIOS.
+
+          </p>
+
+          Our i386 images, by default use a PAE kernel, so you can run them on systems with over 4 GB of RAM.
+
+          In our example, we will be installing Kali Linux in a fresh guest VM, without any existing operating systems pre-installed. We will explain other possible scenarios throughout the guide.
+
+
+        </P>
+      </section>
+
+      <section class="main-section" id="Installing_Kali_on_Mac_Hardware">
+
+        <header id="header1"> Installing Kali on Mac Hardware</header>
+        <li><a href="https://www.kalitutorials.net">https://www.kalitutorials.net</a></li>
+        <code></code>
+
+        <p>
+          Installing Kali Linux (Single boot) on Apple Mac hardware (such as MacBook/MacBook Pro/MacBook Airs/iMacs/iMacs Pros/Mac Pro/Mac Minis), can be a straight forward, if the hardware is supported. Most of the time, there are a few issues that
+          come up, so there is a bit of trial and error.<p>
+
+
+
+          </p>This guide will show you to replace macOS/OS X with Kali Linux. However, if you wish to keep macOS/OS X, you will want to refer to our dual-boot guide instead.</div>
+        </p>
+
+
+          <p> In our example, we will be installing Kali Linux on a Mac Mini (Mid 2011) using macOS High Sierra (10.13). The same procedure has also been tested on a Mac Book Air (Early 2014) using macOS Catalina (10.15).
+
+        </p>
+      </section>
+      <p>List of references:</p>
+
+        <li> <a href="https://www.kali.org">https://www.kali.org</a></li>
+        <li><a href="https://computingforgeeks.com">https://computingforgeeks.com</a></li>
+        <li><a href="https://itsfoss.com">https://itsfoss.com</a></li>
+        <li><a href="https://www.tutorialspoint.com">https://www.tutorialspoint.com</a></li>
+        <li><a href="https://www.kalitutorials.net">https://www.kalitutorials.net</a></li>
+
+
+</body>
+</main>
+
+<script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+</html>
